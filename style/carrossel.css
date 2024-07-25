@@ -1,1 +1,28 @@
+.carrossel-titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+  }
 
+.swiper-slide img {
+    width: 100%;
+}
+
+/*configurar carrossel inserir na aula 25/07*/
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+
+https://github.com/giullianacestari/alura-books/blob/aula10/styles/carrossel.css
